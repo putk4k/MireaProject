@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minWidth="1dp"
+        android:minHeight="1dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="25dp"
+            android:text="Что известно о космосе. Как он пахнет и есть ли жизнь за пределами Земли."
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="33dp"
+            android:layout_marginEnd="16dp"
+            android:text="Начнем с базовых знаний. Слоган «В космосе никто не услышит твой крик» легендарного фильма Ридли Скотта «Чужой» в 1979 году сигнализировал посетителю кинотеатра, что будет как минимум страшно. Однако это не просто предупреждение, создающее предвкушение леденящего зрелища, а факт. В космосе нет звука, поскольку нет воздуха — среды, необходимой для распространения звуковых волн. Поэтому любые космические баталии, будь они возможны, как в кино, проходили бы в полной тишине — не так эффектно, как можно представить."
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="16dp"
+            android:text="Кроме того, космическая температура совершенно неблагоприятна для человека без защитной экипировки: абсолютный ноль (-273,15 °C) — это температура вакуума в открытом космосе. Но это вовсе не значит, что все космические объекты «висят» в ледяной пустоте: излучение звезд и горячих газовых гигантов обязательно их нагревает (именно поэтому обращенная к Солнцу сторона МКС раскаляется до +260 °С). Максимальные минусовые температуры космоса можно встретить в отдаленных и самых темных его уголках. Например, в туманности Бумеранг такой есть: там зафиксирована температура -272 °С."
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView6"
+            app:srcCompat="@drawable/pag1" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:layout_marginEnd="70dp"
+            android:text="Путешествия по Вселенной"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="16dp"
+            android:text="В настоящее время за пределами Земли находятся десять человек. Для людей космос — недружелюбное место, и пока не изобретено удобной, безопасной в долгосрочной перспективе и экономически доступной системы, которая позволила бы его «бороздить». Скафандры все еще громоздкие, устаревшие и порой протекают (в шлеме астронавта Матиаса Маурера в 2022 году оказалась вода прямо во время выхода в открытый космос). Только в 2024-м НАСА получит новые скафандры от Collins Aerospace — заказ на $97,2 млн поступил компании в декабре прошлого года."
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView8"
+            app:srcCompat="@drawable/pag2" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="Что касается космических кораблей, ничего, близко подобного «Энтерпрайзу» из «Звездного пути», в ближайшие 50 и, возможно, 100 лет люди не построят: слишком дорого и ресурсозатратно. Но амбициозные проекты все же появляются: ракеты вроде Starship от SpaceX Илона Маска и Space Launch System (SLS) с космическим кораблем «Орион» от НАСА, запущенный в рамках новой лунной миссии «Артемида» в ноябре 2022 года. На строительство и испытание таких ракет выделяют огромные бюджеты (например, сумма контракта НАСА со SpaceX составила $2,89 млрд, а полноценное возвращение людей на Луну с высадками и работой на поверхности может стоить $93 млрд)."
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

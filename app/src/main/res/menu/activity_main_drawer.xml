@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Браузер" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Космос" />
+
+        <item
+            android:id="@+id/worker_frag"
+            android:icon="@android:drawable/btn_star"
+            android:title="Worker" />
+        <item
+            android:id="@+id/cameraFrag"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Камера" />
+        <item
+            android:id="@+id/compas"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:title="Компас" />
+        <item
+            android:id="@+id/recorder"
+            android:icon="@android:drawable/stat_sys_headset"
+            android:title="Диктофон" />
+        <item
+            android:id="@+id/profile"
+            android:icon="?attr/actionModePasteDrawable"
+            android:title="Профиль" />
+        <item
+            android:id="@+id/file"
+            android:icon="?android:attr/fingerprintAuthDrawable"
+            android:title="Работа с файлами" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@android:drawable/ic_menu_mapmode"
+            android:title="Заведения" />
+    </group>
+</menu>
